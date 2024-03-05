@@ -1,0 +1,32 @@
+<resources>
+	<string name="app_name">EIAM-Test App</string>
+    <string name="env_screen_text">eIAM ist das zentrale Zugriffs- und Berechtiungssystem der Bundesverwaltung für Webapplikationen, und native Mobile Apps.</string>
+    <string name="info_explain_paragraph_1">Vereinfacht erklärt, ist eIAM die zentrale Login-Infrastruktur des Bundes mit dem Ziel, dass nicht für jede Applikation ein eigenes Loginverfahren entwickelt werden muss.</string>
+    <string name="info_explain_paragraph_2">Dank dieser Zentralisierung werden Kosten gespart und alle Applikationen können mit denselben Zugandsdaten verendet werden.</string>
+    <string name="info_explain_paragraph_3">Es spielt dabei keine Rolle, wie und wo die Zielapplikation betrieben wrid, eIAM kann Applikationen auf der ganzen Welt bedienen</string>
+    <string name="info_title">Information</string>
+    <string name="eiam_info_url">https://www.eiam.admin.ch/</string>
+    <string name="eiam_info_button">eIAM</string>
+    <string name="info_youtube_id">6rWNYl6cgA8</string>
+    <string name="logged_in_scree_success">Erfolgreich angemeldet!</string>
+    <string name="logout_button">Abmelden</string>
+    <string name="logged_in_diagnose_text">Hier bekommen Sie detaillierte technische Informationen</string>
+    <string name="logged_in_diagnose_button">Diagnose</string>
+    <string name="eiam_brand_name">eIAM</string>
+    <string name="egovernment_identity_access_management"><![CDATA[eGovernment Identity & Access Management]]></string>
+    <string name="retry_button">Retry</string>
+    <string name="diagnose_sheet_title">Diagnose</string>
+    <string name="diagnose_sheet_actions_title">ACTIONS</string>
+    <string name="could_not_get_discoverydoc">Could not get DiscoveryDoc</string>
+    <string name="user_info_title">User-Info</string>
+    <string name="sample_api_title">Sample API</string>
+    <string name="error_dialog_text">Error: %1$s</string>
+    <string name="unknown_error_text">Unknown Error</string>
+    <string name="unknown_error_title">Unknown Error</string>
+    <string name="refreshed_token_title">Refreshed Token</string>
+    <string name="token_refreshed_text">Token refreshed</string>
+    <string name="refreshed_token_success_text">Success</string>
+    <string name="authorization_flow_failed_exception_text">Authorization flow failed</string>
+    <string name="could_not_refresh_token">Could not refresh token</string>
+    <string name="no_refresh_token">No refresh token</string>
+</resources>

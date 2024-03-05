@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <base-config>
+        <trust-anchors>
+            <certificates src="user"/>
+            <certificates src="system"/>
+        </trust-anchors>
+    </base-config>
+    <domain-config>
+        <domain includeSubdomains="true">identity-eiam-r.eiam.admin.ch</domain>
+        <pin-set>
+            <!-- C=BM, O=QuoVadis Limited, CN=QuoVadis Root CA 2 G3 -->
+            <pin digest="SHA-256">SkntvS+PgjC9VZKzE1c/4cFypF+pgBHMHt27Nq3j/OU=</pin>
+        </pin-set>
+    </domain-config>
+    <domain-config>
+        <domain includeSubdomains="true">identity-eiam-a.eiam.admin.ch</domain>
+        <pin-set>
+            <!-- C=BM, O=QuoVadis Limited, CN=QuoVadis Root CA 2 G3 -->
+            <pin digest="SHA-256">SkntvS+PgjC9VZKzE1c/4cFypF+pgBHMHt27Nq3j/OU=</pin>
+        </pin-set>
+    </domain-config>
+    <domain-config>
+        <domain includeSubdomains="true">identity-eiam.eiam.admin.ch</domain>
+        <pin-set>
+            <!-- C=BM, O=QuoVadis Limited, CN=QuoVadis Root CA 2 G3 -->
+            <pin digest="SHA-256">SkntvS+PgjC9VZKzE1c/4cFypF+pgBHMHt27Nq3j/OU=</pin>
+        </pin-set>
+    </domain-config>
+</network-security-config>
