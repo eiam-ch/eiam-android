@@ -64,7 +64,7 @@ fun ContentBox(
                 color = Color.White,
                 shadowElevation = 2.dp,
                 shape = RoundedCornerShape(15.dp),
-                modifier = Modifier.padding(top = 30.dp, bottom = 25.dp)
+                modifier = Modifier.padding(top = 35.dp, bottom = 25.dp)
             ) {
                 Box(
                     modifier = Modifier
@@ -78,8 +78,8 @@ fun ContentBox(
                 shadowElevation = 16.dp,
                 shape = CircleShape,
                 modifier = Modifier
-                    .width(60.dp)
-                    .height(60.dp)
+                    .width(70.dp)
+                    .height(70.dp)
             ) {
                 Box(
                     modifier = Modifier
