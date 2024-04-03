@@ -72,8 +72,8 @@ fun DiagnoseSheet(
             .fillMaxSize()
             .verticalScroll(rememberScrollState())
     ) {
-        Text(stringResource(R.string.diagnose_sheet_title), modifier = Modifier.align(Alignment.CenterHorizontally))
-        Text(stringResource(R.string.diagnose_sheet_actions_title),modifier = Modifier.padding(start = 20.dp, end = 20.dp, top = 10.dp))
+        Text(stringResource(R.string.diagnose_title), modifier = Modifier.align(Alignment.CenterHorizontally))
+        Text("ACTIONS",modifier = Modifier.padding(start = 20.dp, end = 20.dp, top = 10.dp))
         Column(modifier = Modifier.padding(bottom = 20.dp)) {
             Box(
                 modifier = Modifier
@@ -127,7 +127,7 @@ fun DiagnoseSheet(
 
             }
         }
-        Text("Information", modifier = Modifier.align(Alignment.CenterHorizontally))
+        Text(stringResource(R.string.information_title), modifier = Modifier.align(Alignment.CenterHorizontally))
         Box(
             modifier = Modifier
                 .background(Color.White)

@@ -128,7 +128,7 @@ fun LoggedInScreen(
         horizontalAlignment = Alignment.CenterHorizontally,
     ) {
         Image(painterResource(id = R.drawable.ic_check), null, modifier = Modifier.padding(top = 30.dp))
-        Text(stringResource(R.string.logged_in_scree_success), modifier = Modifier.padding(bottom = 30.dp))
+        Text(stringResource(R.string.authenticated_title), modifier = Modifier.padding(bottom = 30.dp))
         ContentBox(
             modifier = Modifier.padding(bottom = 30.dp),
             bubbleContent = {
@@ -146,7 +146,7 @@ fun LoggedInScreen(
                     Text("${profile?.email}")
                 }
             },
-            buttonContent = stringResource(R.string.logout_button)
+            buttonContent = stringResource(R.string.authenticated_logout_button_title)
         ) {
             logout()
         }
@@ -155,9 +155,9 @@ fun LoggedInScreen(
                 Image(painterResource(id = R.drawable.ic_diagnose), null)
             },
             mainContent = {
-                Text(stringResource(R.string.logged_in_diagnose_text))
+                Text(stringResource(R.string.authenticated_diagnose_text))
             },
-            buttonContent = stringResource(R.string.logged_in_diagnose_button)
+            buttonContent = stringResource(R.string.authenticated_diagnose_button_title)
         ) {
             showDiagnoseSheet = true
             scope.launch {

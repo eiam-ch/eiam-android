@@ -37,34 +37,34 @@ fun EiamInfoSheet(showInfoSheet: Boolean, onDismiss: () -> Unit) {
                     .fillMaxSize()
             ) {
                 Text(
-                    stringResource(R.string.info_title),
+                    stringResource(R.string.information_title),
                     fontWeight = FontWeight.Bold,
                     modifier = Modifier.fillMaxWidth().padding(bottom = 20.dp),
                     textAlign = TextAlign.Center
                 )
                 Text(
-                    stringResource(R.string.env_screen_text),
+                    stringResource(R.string.information_text_top),
                     modifier = Modifier.padding(top = 10.dp, bottom = 10.dp)
                 )
                 YoutubeScreen(
-                    videoId = stringResource(R.string.info_youtube_id), modifier = Modifier
+                    videoId = stringResource(R.string.Information_youtubevideo_url), modifier = Modifier
                         .fillMaxWidth()
                         .padding(top = 10.dp, bottom = 10.dp)
                 )
                 Text(
-                    stringResource(R.string.info_explain_paragraph_1),
+                    stringResource(R.string.information_text_bottom),
                     modifier = Modifier.padding(top = 10.dp, bottom = 10.dp)
                 )
-                Text(
-                    stringResource(R.string.info_explain_paragraph_2),
-                    modifier = Modifier.padding(top = 10.dp, bottom = 10.dp)
-                )
-                Text(
-                    stringResource(R.string.info_explain_paragraph_3),
-                    modifier = Modifier.padding(top = 10.dp, bottom = 10.dp)
-                )
-                Link(stringResource(R.string.eiam_info_url)) {
-                    Text(stringResource(R.string.eiam_info_button))
+//                Text(
+//                    stringResource(R.string.info_explain_paragraph_2),
+//                    modifier = Modifier.padding(top = 10.dp, bottom = 10.dp)
+//                )
+//                Text(
+//                    stringResource(R.string.info_explain_paragraph_3),
+//                    modifier = Modifier.padding(top = 10.dp, bottom = 10.dp)
+//                )
+                Link(stringResource(R.string.Information_url_link)) {
+                    Text(stringResource(R.string.Information_url_title))
                 }
             }
         }

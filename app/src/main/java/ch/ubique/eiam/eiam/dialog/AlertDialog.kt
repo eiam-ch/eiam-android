@@ -19,10 +19,10 @@ fun EiamAlertDialog(
     val dialogTitle = popupModel.dialogTitleId?.let {
         stringResource(id = it)
     } ?: run {
-        stringResource(id = R.string.unknown_error_title)
+        stringResource(id = R.string.error_title)
     }
     val dialogText = if(err != null) {
-        stringResource(id = R.string.error_dialog_text, err)
+        stringResource(id = R.string.error_title, err)
     } else {
         popupModel.dialogTextId?.let {
             stringResource(id = it)

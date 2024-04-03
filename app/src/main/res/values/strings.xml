@@ -1,32 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-	<string name="app_name">EIAM-Test App</string>
-    <string name="env_screen_text">eIAM ist das zentrale Zugriffs- und Berechtiungssystem der Bundesverwaltung für Webapplikationen, und native Mobile Apps.</string>
-    <string name="info_explain_paragraph_1">Vereinfacht erklärt, ist eIAM die zentrale Login-Infrastruktur des Bundes mit dem Ziel, dass nicht für jede Applikation ein eigenes Loginverfahren entwickelt werden muss.</string>
-    <string name="info_explain_paragraph_2">Dank dieser Zentralisierung werden Kosten gespart und alle Applikationen können mit denselben Zugandsdaten verendet werden.</string>
-    <string name="info_explain_paragraph_3">Es spielt dabei keine Rolle, wie und wo die Zielapplikation betrieben wrid, eIAM kann Applikationen auf der ganzen Welt bedienen</string>
-    <string name="info_title">Information</string>
-    <string name="eiam_info_url">https://www.eiam.admin.ch/</string>
-    <string name="eiam_info_button">eIAM</string>
-    <string name="info_youtube_id">6rWNYl6cgA8</string>
-    <string name="logged_in_scree_success">Erfolgreich angemeldet!</string>
-    <string name="logout_button">Abmelden</string>
-    <string name="logged_in_diagnose_text">Hier bekommen Sie detaillierte technische Informationen</string>
-    <string name="logged_in_diagnose_button">Diagnose</string>
-    <string name="eiam_brand_name">eIAM</string>
-    <string name="egovernment_identity_access_management"><![CDATA[eGovernment Identity & Access Management]]></string>
-    <string name="retry_button">Retry</string>
-    <string name="diagnose_sheet_title">Diagnose</string>
-    <string name="diagnose_sheet_actions_title">ACTIONS</string>
-    <string name="could_not_get_discoverydoc">Could not get DiscoveryDoc</string>
-    <string name="user_info_title">User-Info</string>
-    <string name="sample_api_title">Sample API</string>
-    <string name="error_dialog_text">Error: %1$s</string>
-    <string name="unknown_error_text">Unknown Error</string>
-    <string name="unknown_error_title">Unknown Error</string>
-    <string name="refreshed_token_title">Refreshed Token</string>
-    <string name="token_refreshed_text">Token refreshed</string>
-    <string name="refreshed_token_success_text">Success</string>
-    <string name="authorization_flow_failed_exception_text">Authorization flow failed</string>
-    <string name="could_not_refresh_token">Could not refresh token</string>
-    <string name="no_refresh_token">No refresh token</string>
+
+    <!-- App Name: Name der App -->
+    <string name="app_name">eIAM</string>
+
+    <!-- Technischer Key der Sprache (wird von Ubique in allen Übersetzungen hinzugefügt, bitte nicht anpassen) -->
+    <string name="language_key">"de"</string>
+
+    <!-- Button: Abbrechen -->
+    <string name="cancel_button">"Abbrechen"</string>
+
+    <!-- Button: OK -->
+    <string name="ok_button">"OK"</string>
+
+    <!-- Button: Löschen -->
+    <string name="delete_button">"Löschen"</string>
+
+    <!-- Button: Fertig -->
+    <string name="done_button">"Fertig"</string>
+
+    <!-- Button: Weiter -->
+    <string name="continue_button">"Weiter"</string>
+
+    <!-- Button: Schliessen -->
+    <string name="close_button">"Schliessen"</string>
+
+    <!-- Button: Erneut versuchen -->
+    <string name="retry_button">"Erneut versuchen"</string>
+
+    <!-- Button: Sichern -->
+    <string name="save_button">"Sichern"</string>
+
+    <!-- Button: Zurück -->
+    <string name="back_button">"Zurück"</string>
+
+    <!-- Titel: Fehler -->
+    <string name="error_title">"Fehler"</string>
+    <string name="home_title">"eIAM"</string>
+    <string name="home_subtitle">"eGovernment Identity &amp; 
+Access Management"</string>
+    <string name="home_description">"eIAM ist das zentrale Zugriffs- und Berechtigungssystem der Bundesverwaltung für Webapplikationen, und native Mobile Apps."</string>
+    <string name="home_login_button_title">"Login Starten"</string>
+    <string name="authenticated_title">"Ergfolgreich angemeldet!"</string>
+    <string name="authenticated_logout_button_title">"Abmelden"</string>
+    <string name="authenticated_diagnose_text">"Hier bekommen sie detaillierte technische Informationen"</string>
+    <string name="authenticated_diagnose_button_title">"Diagnose"</string>
+    <string name="information_title">"Information"</string>
+    <string name="Information_url_title">"eIAM"</string>
+    <string name="Information_url_link">"https://www.eiam.admin.ch/"</string>
+    <string name="Information_youtubevideo_url">6rWNYl6cgA8</string>
+    <string name="information_text_top">"eIAM ist das zentrale Zugriffs- und Berechtigungssystem der Bundesverwaltung für Webapplikationen, und native Mobile Apps."</string>
+    <string name="information_text_bottom">"Vereinfacht erklärt, ist eIAM die zentrale Login-Infrastruktur des Bundes mit dem Ziel, dass nicht für jede Applikation ein eigenes Loginverfahren entwickelt werden muss.
+
+Dank dieser Zentralisierung werden Kosten gespart und alle Applikationen können mit denselben Zugangsdaten verwendet werden.
+
+Es spielt dabei keine Rolle, wie und wo die Zielapplikation betrieben wird, eIAM kann Applikationen auf der ganzen Welt bedienen."</string>
+    <string name="diagnose_title">"Diagnose"</string>
+    <string name="home_choose_environment">"Wählen Sie einen Staging environment:"</string>
+    <string name="detail_popup_title">Detail</string>
+    <string name="success">Erfolgreich</string>
 </resources>

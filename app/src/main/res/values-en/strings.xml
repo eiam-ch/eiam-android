@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- App Name: Name der App -->
+    <string name="app_name">eIAM</string>
+
+    <!-- Technischer Key der Sprache (wird von Ubique in allen Übersetzungen hinzugefügt, bitte nicht anpassen) -->
+    <string name="language_key">"en"</string>
+
+    <!-- Button: Abbrechen -->
+    <string name="cancel_button">"Cancel"</string>
+
+    <!-- Button: OK -->
+    <string name="ok_button">"OK"</string>
+
+    <!-- Button: Löschen -->
+    <string name="delete_button">"Delete"</string>
+
+    <!-- Button: Fertig -->
+    <string name="done_button">"Done"</string>
+
+    <!-- Button: Weiter -->
+    <string name="continue_button">"Continue"</string>
+
+    <!-- Button: Schliessen -->
+    <string name="close_button">"Close"</string>
+
+    <!-- Button: Erneut versuchen -->
+    <string name="retry_button">"Retry"</string>
+
+    <!-- Button: Sichern -->
+    <string name="save_button">"Save"</string>
+
+    <!-- Button: Zurück -->
+    <string name="back_button">"Back"</string>
+
+    <!-- Titel: Fehler -->
+    <string name="error_title">"Error"</string>
+    <string name="home_title">"eIAM"</string>
+    <string name="home_subtitle">"eGovernment Identity &amp; 
+Access Management"</string>
+    <string name="home_description">"eIAM is the Federal Administration's central access and permissions system for web applications and native mobile apps."</string>
+    <string name="home_login_button_title">"Start login"</string>
+    <string name="authenticated_title">"Authenticated sucessfully!"</string>
+    <string name="authenticated_logout_button_title">"Logout"</string>
+    <string name="authenticated_diagnose_text">"Here you receive detailed technical information"</string>
+    <string name="authenticated_diagnose_button_title">"Diagnosis"</string>
+    <string name="information_title">"Information"</string>
+    <string name="Information_url_title">"eIAM"</string>
+    <string name="Information_url_link">"https://www.eiam.admin.ch/"</string>
+    <string name="Information_youtubevideo_url">6rWNYl6cgA8</string>
+    <string name="information_text_top">"eIAM is the Federal Administration's central access and permissions system for web applications and native mobile apps."</string>
+    <string name="information_text_bottom">"Put simply, eIAM is the Confederation's central login infrastructure; the aim is to avoid having to create a separate login procedure for each application.
+
+This centralisation saves money and allows all applications to be used with the same login data.
+
+It doesn't matter how the target application is used, or where; eIAM can run applications all over the world."</string>
+    <string name="diagnose_title">"Diagnosis"</string>
+    <string name="home_choose_environment">"Choose a staging environment:"</string>
+    <string name="detail_popup_title">Detail</string>
+    <string name="success">Success</string>
+</resources>

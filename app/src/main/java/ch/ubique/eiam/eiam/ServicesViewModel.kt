@@ -15,25 +15,25 @@ class ServicesViewModel(
         val userInfoEndpoint =
             eiamAuthStorage.getCurrentAuthState().authorizationServiceConfiguration?.discoveryDoc?.userinfoEndpoint
                 ?: return DiagnoseViewState.Error(Exception(), PopupModel(
-                        R.string.user_info_title, R.string.could_not_get_discoverydoc))
+                        R.string.error_title, R.string.error_title))
         return try {
             val result =
                 authorizedHttpClient.userInfoService.getUserInfo(userInfoEndpoint.toString())
             DiagnoseViewState.Success(PopupModel(
-                R.string.user_info_title
+                R.string.detail_popup_title
             , dialogText = result))
         } catch (t: Throwable) {
             DiagnoseViewState.Error(t, PopupModel(
-                R.string.user_info_title, R.string.error_dialog_text))
+                R.string.detail_popup_title, R.string.error_title))
         }
     }
 
     suspend fun loadApi() : DiagnoseViewState<PopupModel, PopupLoadingModel> {
         return try {
             val result = authorizedHttpClient.sampleApiService.callSample()
-            DiagnoseViewState.Success(PopupModel(R.string.sample_api_title, dialogText = result))
+            DiagnoseViewState.Success(PopupModel(R.string.detail_popup_title, dialogText = result))
         } catch (t: Throwable) {
-            DiagnoseViewState.Error(t, PopupModel(R.string.sample_api_title, R.string.error_dialog_text))
+            DiagnoseViewState.Error(t, PopupModel(R.string.detail_popup_title, R.string.error_title))
         }
     }
 }

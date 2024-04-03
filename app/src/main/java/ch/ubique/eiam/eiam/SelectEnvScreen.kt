@@ -32,8 +32,8 @@ fun Logo() {
         .fillMaxWidth(2.0f / 3.0f)
         .padding(bottom = 50.dp), horizontalAlignment = Alignment.CenterHorizontally, verticalArrangement = Arrangement.SpaceBetween) {
         Image(painterResource(id = R.drawable.ic_logo), contentDescription = null, modifier = Modifier.height(90.dp))
-        Text(stringResource(R.string.eiam_brand_name), modifier = Modifier.align(Alignment.CenterHorizontally))
-        Text(stringResource(R.string.egovernment_identity_access_management), fontWeight = FontWeight.Bold, textAlign = TextAlign.Center , modifier = Modifier.align(Alignment.CenterHorizontally))
+        Text(stringResource(R.string.Information_url_title), modifier = Modifier.align(Alignment.CenterHorizontally))
+        Text(stringResource(R.string.home_subtitle), fontWeight = FontWeight.Bold, textAlign = TextAlign.Center , modifier = Modifier.align(Alignment.CenterHorizontally))
     }
 }
 
@@ -56,7 +56,7 @@ private fun EnvironmentButton(env: EiamEnvironment, environmentSelected: (EiamEn
 fun SelectEnvScreen(environmentSelected: (EiamEnvironment) -> Unit) {
     Column(modifier = Modifier.fillMaxSize(), horizontalAlignment = Alignment.CenterHorizontally, verticalArrangement =  Arrangement.SpaceBetween) {
         Logo()
-        Text(stringResource(R.string.env_screen_text), textAlign = TextAlign.Center)
+        Text(stringResource(R.string.information_text_top), textAlign = TextAlign.Center)
         Column(modifier = Modifier
             .weight(1.0f)
             .padding(top = 30.dp)) {

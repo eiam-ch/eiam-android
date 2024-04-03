@@ -163,16 +163,16 @@ class AuthViewModel(context: Context) : ViewModel(), AuthViewModelCallbacks {
             DiagnoseViewState.Loading(loadingState = PopupLoadingModel(isRefreshTokenLoading = true))
         val currentAuthState = eiamAuthStorage.getCurrentAuthState()
         if (currentAuthState.refreshToken == null) {
-            this.showPopup(R.string.no_refresh_token,
-                R.string.could_not_refresh_token)
+            this.showPopup(R.string.error_title,
+                R.string.error_title)
         } else {
             viewModelScope.launch {
                 try {
                     eiamAuthRepository.refreshToken()
                     popupViewStateMutable.value =
-                        DiagnoseViewState.Success(PopupModel(R.string.refreshed_token_title, R.string.refreshed_token_success_text))
+                        DiagnoseViewState.Success(PopupModel(R.string.success, R.string.success))
                 } catch(ex : Exception) {
-                    popupViewStateMutable.value = DiagnoseViewState.Error(ex, PopupModel(R.string.refreshed_token_title, R.string.error_dialog_text))
+                    popupViewStateMutable.value = DiagnoseViewState.Error(ex, PopupModel(R.string.error_title, R.string.error_title))
                 }
             }
         }
