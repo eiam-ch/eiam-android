@@ -10,6 +10,8 @@
         <pin-set>
             <!-- C=BM, O=QuoVadis Limited, CN=QuoVadis Root CA 2 G3 -->
             <pin digest="SHA-256">SkntvS+PgjC9VZKzE1c/4cFypF+pgBHMHt27Nq3j/OU=</pin>
+            <!-- DigiCert Global G2 TLS RSA SHA256 2020 CA1 -->
+            <pin digest="SHA-256">Wec45nQiFwKvHtuHxSAMGkt19k+uPSw9JlEkxhvYPHk=</pin>
         </pin-set>
     </domain-config>
     <domain-config>
@@ -17,6 +19,8 @@
         <pin-set>
             <!-- C=BM, O=QuoVadis Limited, CN=QuoVadis Root CA 2 G3 -->
             <pin digest="SHA-256">SkntvS+PgjC9VZKzE1c/4cFypF+pgBHMHt27Nq3j/OU=</pin>
+            <!-- DigiCert Global G2 TLS RSA SHA256 2020 CA1 -->
+            <pin digest="SHA-256">Wec45nQiFwKvHtuHxSAMGkt19k+uPSw9JlEkxhvYPHk=</pin>
         </pin-set>
     </domain-config>
     <domain-config>
@@ -24,6 +28,8 @@
         <pin-set>
             <!-- C=BM, O=QuoVadis Limited, CN=QuoVadis Root CA 2 G3 -->
             <pin digest="SHA-256">SkntvS+PgjC9VZKzE1c/4cFypF+pgBHMHt27Nq3j/OU=</pin>
+            <!-- DigiCert Global G2 TLS RSA SHA256 2020 CA1 -->
+            <pin digest="SHA-256">Wec45nQiFwKvHtuHxSAMGkt19k+uPSw9JlEkxhvYPHk=</pin>
         </pin-set>
     </domain-config>
 </network-security-config>
